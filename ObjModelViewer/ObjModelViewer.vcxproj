@@ -79,8 +79,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(VULKAN_SDK)\Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\VulkanSDK\SDL2-2.0.14\include;$(SDL_INC_PATH);C:\Users\muzzi\Desktop\ObjModelViewer\include</IncludePath>
-    <LibraryPath>$(VULKAN_SDK)\Lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;C:\VulkanSDK\SDL2-2.0.14\lib\x64;$(SDL_LIB64_PATH)</LibraryPath>
+    <IncludePath>$(VULKAN_SDK)\Include;$(VC_IncludePath);$(WindowsSDK_IncludePath);$(SDL_INC_PATH);$(ProjectDir)\include</IncludePath>
+    <LibraryPath>$(VULKAN_SDK)\Lib;$(VC_LibraryPath_x64);$(WindowsSDK_LibraryPath_x64);$(NETFXKitsDir)Lib\um\x64;$(SDL_LIB64_PATH)</LibraryPath>
     <TargetName>$(ProjectName)_x64</TargetName>
     <IntDir>$(SolutionDir)build\temp\$(Configuration)_$(Platform)\</IntDir>
     <OutDir>$(SolutionDir)build\bin_$(Configuration)_$(Platform)\</OutDir>

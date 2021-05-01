@@ -9,7 +9,7 @@ extern const char *EnabledDeviceExtensions[] =
 
 const char* EnabledLayers[] =
 {
-    "VK_LAYER_LUNARG_standard_validation",
+    NULL //"VK_LAYER_KHRONOS_validation",
 };
 
 const char* EnabledInstanceExtensions[] =

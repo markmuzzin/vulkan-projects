@@ -7,7 +7,7 @@
 #include <inttypes.h>
 #include <vulkan/vulkan.h>
 #include <errno.h>
-#include <matrixMath.h>
+#include "matrixMath.h"
 
 #define STRLEN                      128
 
